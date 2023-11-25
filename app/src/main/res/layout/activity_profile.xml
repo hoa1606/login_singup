@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imgprofile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/image_profile"/>
+
+    <TextView
+        android:id="@+id/tvnameadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_below="@id/imgprofile"
+        android:textAlignment="center"
+        android:text="Đỗ Hữu Hòa"/>
+
+    <TextView
+        android:id="@+id/tvtsadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvnameadmin"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="Sách là liều thuốc cho tâm hồn"/>
+
+
+    <TextView
+        android:id="@+id/tvtbadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtsadmin"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="Thông báo"/>
+
+    <ImageView
+        android:id="@+id/imgthongbao"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvtsadmin"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="53dp"
+        android:layout_toLeftOf="@id/tvtbadmin"
+        android:src="@drawable/thongbao"/>
+
+    <View
+        android:layout_width="333dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvtbadmin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvhtadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtbadmin"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:text="Hỗ trợ"/>
+
+    <ImageView
+        android:id="@+id/imghotro"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvtbadmin"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@id/tvhtadmin"
+        android:src="@drawable/support"/>
+
+    <View
+        android:layout_width="333dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvhtadmin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvcdadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvhtadmin"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:text="Cộng đồng"/>
+
+    <ImageView
+        android:id="@+id/imgcongdong"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvhtadmin"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@id/tvcdadmin"
+        android:src="@drawable/community"/>
+
+    <View
+        android:layout_width="333dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvcdadmin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvstadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcdadmin"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:text="Cài đặt"/>
+
+    <ImageView
+        android:id="@+id/imgcatdat"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvcdadmin"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@id/tvstadmin"
+        android:src="@drawable/setting"/>
+
+    <View
+        android:layout_width="333dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvstadmin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvdxadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvstadmin"
+        android:layout_marginTop="30dp"
+        android:text="Đăng xuất"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgdangxuat"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvstadmin"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@id/tvdxadmin"
+        android:src="@drawable/signout"/>
+
+    <View
+        android:layout_width="333dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvdxadmin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvtkadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdxadmin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:text="Thống kê"/>
+
+    <ImageView
+        android:id="@+id/imgthongke"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvdxadmin"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@id/tvtkadmin"
+        android:src="@drawable/statistic"/>
+
+
+    <Button
+        android:id="@+id/bt_home"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="730dp"
+        android:textColor="@color/red"
+        android:drawableTop="@drawable/baseline_home_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Trang chủ"></Button>
+
+    <Button
+        android:id="@+id/bt_category"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="-1dp"
+        android:drawableTop="@drawable/baseline_category_24"
+        android:background="@drawable/unrounded_button"
+        android:text="Thể loại"></Button>
+
+    <Button
+        android:id="@+id/bt_profile"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="0dp"
+        android:drawableTop="@drawable/baseline_people_alt_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Tài khoản"></Button>
+
+
+
+
+</RelativeLayout>

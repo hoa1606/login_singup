@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity">
+
+
+    <Button
+        android:id="@+id/bt_home"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="682dp"
+        android:textColor="@color/red"
+        android:drawableTop="@drawable/baseline_home_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Trang chủ"></Button>
+
+    <Button
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="682dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="-1dp"
+        android:drawableTop="@drawable/baseline_category_24"
+        android:background="@drawable/unrounded_button"
+        android:text="Thể loại"></Button>
+
+    <Button
+        android:id="@+id/bt_taiKhoan"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="682dp"
+        android:layout_marginEnd="0dp"
+        android:drawableTop="@drawable/baseline_people_alt_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Tài khoản"></Button>
+
+    <TextView
+        android:id="@+id/tvthemsach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Thêm Sách"
+        android:textSize="22sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tvtensach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginTop="40dp"
+        android:text="Tên sách:"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvtacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtensach"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:text="Tác giả:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvNXB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtacgia"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:text="NXB:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvtheloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNXB"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:text="Thể loại:"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvnoidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtheloai"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:text="Nội dung:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_gioithieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvnoidung"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:text="Giới thiệu:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_gioithieu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:text="Hình ảnh:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_tensach"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:background="@drawable/rounded_edittext_bg"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_tacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="83dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:background="@drawable/rounded_edittext_bg"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_NXB"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="130dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:background="@drawable/rounded_edittext_bg"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_theloai"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="179dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:background="@drawable/rounded_edittext_bg"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_noidung"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="226dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:background="@drawable/rounded_edittext_bg"
+        android:ems="10"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/edt_gioithieu"
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="361dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_edittext_bg"/>
+
+    <EditText
+        android:id="@+id/edt_hinhanh"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvthemsach"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="534dp"
+        android:layout_toEndOf="@+id/tvtensach"
+        android:background="@drawable/rounded_edittext_bg"
+        android:ems="10"
+        android:hint="upload file"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@id/tvthemsach"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="574dp"
+        android:background="@color/red"
+        android:text="Lưu"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

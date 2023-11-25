@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "104083007880",
+    "firebase_url": "https://appreadingbook-default-rtdb.firebaseio.com",
+    "project_id": "appreadingbook",
+    "storage_bucket": "appreadingbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104083007880:android:075c58188e5a39fc08f23d",
+        "android_client_info": {
+          "package_name": "com.example.appreadingbooks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95rtbHUzkwYG4hWCAF662YfhuZsxKrZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

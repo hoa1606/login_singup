@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookUserActivity">
+
+    <EditText
+        android:id="@+id/edt_seach"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:hint="  Tên sách, Tên tác giả"
+        android:textColorHint="#000"
+        android:background="#CDC7C7"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_seach"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/back_24"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_seach"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Tỷ phú bán giày"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edt_seach"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/keyboard_arrow_left" />
+
+    <TextView
+        android:id="@+id/tv_tenChuong"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_seach"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="Kì 1: Trang trại giun đất"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edt_seach"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="329dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/keyboard_arrow_right" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="515dp"
+        android:layout_below="@+id/tv_tenChuong"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Đầu tiên người ta không thèm để ý đến bạn, sau đó người ta chế nhạo bạn, tiếp đến người ta tấn công bạn, rồi cuối cùng thì bạn thắng (GANDHI).\nTôi tin rằng Gandhi không hề biết tôi là ai khi tôi mới chín tuổi. Và chắc chắn tôi cũng chẳng biết ông ta là ai. Nhưng nếu Gandhi biết về những ảo tưởng và ước mơ thời thơ ấu của tôi về việc kiếm thật nhiều, thật nhiều tiền bằng cách nuôi và bán giun đất với số lượng lớn ra thị trường, thì có lẽ ông ta cũng sẽ đưa ra những câu răn tương tự thế này để khích lệ tôi trở thành người bán giun đất hàng đầu thế giới.\nNhưng đáng buồn là Gandhi lại chẳng ghé qua nhà tôi để trao cho tôi lời khuyên và sự thông thái của ông. Thay vào đó, trong ngày sinh nhật lần thứ chín của tôi, tôi nói với bố mẹ rằng tôi muốn họ lái xe đưa tôi tới ngôi nhà của chúng tôi ở bắc Sonoma, tới nơi có nhà cung cấp giun đất nổi tiếng nhất cả nước lúc bấy giờ. Nhà cung cấp ấy chẳng hề biết rằng tôi đang ấp ủ giấc mơ trở thành đối thủ lớn nhất của họ."
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bt_home"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="730dp"
+        android:textColor="@color/red"
+        android:drawableTop="@drawable/baseline_home_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Trang chủ"></Button>
+
+    <Button
+        android:id="@+id/bt_category"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="-1dp"
+        android:drawableTop="@drawable/baseline_category_24"
+        android:background="@drawable/unrounded_button"
+        android:text="Thể loại"></Button>
+
+    <Button
+        android:id="@+id/bt_profile"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="0dp"
+        android:drawableTop="@drawable/baseline_people_alt_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Tài khoản"></Button>
+
+</RelativeLayout>

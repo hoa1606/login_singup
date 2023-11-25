@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <EditText
+        android:id="@+id/edtfind"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="33dp"
+        android:paddingLeft="70dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:hint="Tên sách, tên tác giả">
+    </EditText>
+
+    <ImageView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/finding"/>
+
+    <TextView
+        android:id="@+id/tvtheloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thể loại"
+        android:layout_below="@id/edtfind"
+        android:textSize="23sp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvctri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/tvtheloai"
+        android:textSize="23sp"
+        android:text="Chính trị"/>
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_toRightOf="@id/tvctri"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/tvtheloai"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvctri"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ctri1" />
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvctri"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ctri2" />
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvctri"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ctri3"/>
+
+    <TextView
+        android:id="@+id/tvtgtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/tvctri"
+        android:textSize="23sp"
+        android:text="Tôn giáo - Tâm linh"/>
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_toRightOf="@id/tvtgtl"
+        android:layout_marginTop="183dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/tvctri"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvtgtl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/tgtl1" />
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvtgtl"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="160dp"
+        android:src="@drawable/tgtl2"/>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvtgtl"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/tgtl3"/>
+
+    <TextView
+        android:id="@+id/tvthieunhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/tvtgtl"
+        android:textSize="23sp"
+        android:text="Thiếu nhi"/>
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_toRightOf="@id/tvthieunhi"
+        android:layout_marginTop="183dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/tvtgtl"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvthieunhi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/tn1" />
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvthieunhi"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="160dp"
+        android:src="@drawable/tn2"/>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:layout_below="@id/tvthieunhi"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/tn3"/>
+
+    <Button
+        android:id="@+id/bt_home"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="730dp"
+        android:textColor="@color/red"
+        android:drawableTop="@drawable/baseline_home_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Trang chủ"></Button>
+
+    <Button
+        android:id="@+id/bt_category"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="-1dp"
+        android:drawableTop="@drawable/baseline_category_24"
+        android:background="@drawable/unrounded_button"
+        android:text="Thể loại"></Button>
+
+    <Button
+        android:id="@+id/bt_profile"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="0dp"
+        android:drawableTop="@drawable/baseline_people_alt_24"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/unrounded_button"
+        android:text="Tài khoản"></Button>
+
+</RelativeLayout>
